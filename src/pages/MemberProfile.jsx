@@ -66,8 +66,8 @@ export default function MemberProfile() {
       className="w-full"
       style={{
         paddingLeft: "1.5rem",
-        paddingRight: "1.5rem",
-        paddingBottom: "6rem",
+        paddingBottom: "5rem",
+        paddingTop: "8rem"
       }}
     >
       <div
@@ -83,7 +83,7 @@ export default function MemberProfile() {
       </div>
 
       <div
-        className="text-center font-semibold tracking-wide text-emerald-200/90"
+        className="text-center text-2xl font-semibold tracking-wide text-emerald-200/90"
         style={{ marginBottom: "1.25rem" }}
       >
         SAST Community Member
@@ -95,6 +95,7 @@ export default function MemberProfile() {
           maxWidth: "1150px",
           margin: "0 auto",
           width: "100%",
+          paddingRight: "1rem",
         }}
       >
         <div
@@ -133,7 +134,7 @@ export default function MemberProfile() {
               className="text-2xl italic text-emerald-300/90"
               style={{ marginTop: "0.6rem" }}
             >
-              Member
+              {m.role}
             </p>
           )}
 
