@@ -67,7 +67,8 @@ export default function ContributorProfile() {
       style={{
         paddingLeft: "1.5rem",
         paddingRight: "1.5rem",
-        paddingBottom: "6rem",
+        paddingBottom: "5rem",
+        paddingTop: "8rem"
       }}
     >
       <div
@@ -83,7 +84,7 @@ export default function ContributorProfile() {
       </div>
 
       <div
-        className="text-center font-semibold tracking-wide text-emerald-200/90"
+        className="text-center text-2xl font-semibold tracking-wide text-emerald-200/90"
         style={{ marginBottom: "1.25rem" }}
       >
         SAST Contributor
